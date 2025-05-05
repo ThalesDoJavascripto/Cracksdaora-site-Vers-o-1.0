@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CracksDaora</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @font-face {
+            font-family: "Minecraft";
+            src: url(Minecraft.ttf) format(Truetype);
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+        
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="bgi">
+    <footer class="footer1">
+        <h1 id="titulo">Cracks<span>Daora</span></h1> 
+    </footer>
+      <h1 class="center" style="font-size: 30px;"><span style="color: white;">Procure os cracks que voce</span> <span style="color: purple;">quer</span></h1>
+
+    <div class="div1">
+        
+        <h2 class="center" style="font-size: 30px;">Cadastro</h2>
+        <h2>Nome</h2>
+        <input type="text" id="for_nome">
+        <h2>Login</h2>
+        <input type="text" id="for_senha"><br> <br>
+        <button id="forbutton">Cadastro</button>
+    </div>
+    <div class="div2">
+        <p style="padding: 25px;">&copy;CracksDaora.Todos os direitos reservados.</p>
+    </div>
+    <script src="script.js" defer></script>
+    
+    <script>
+        let lista = ["GOW.jpg","GTA_SA.jpg"]
+        let random_lista = lista[Math.floor(Math.random() * lista.length)]
+
+        
+
+        document.getElementById('titulo').innerHTML = "Cracks<span style='color:purple'>Daora</span>"
+        document.getElementById('titulo').style.fontFamily = "Minecraft"
+        document.getElementById('titulo').style.fontWeight = 300
+        document.getElementById('titulo').style.textAlign = "center"
+
+        document.getElementById("bgi").style.backgroundImage = `linear-gradient(to right,rgba(0, 0, 0, 0.600),rgba(0, 0, 0, 0.600)),url(${random_lista})`
+        
+    </script>
+</body>
+</html>

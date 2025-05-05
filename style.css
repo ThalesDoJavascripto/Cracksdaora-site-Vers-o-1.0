@@ -1,0 +1,71 @@
+button{
+    border-color: rgba(0, 0, 0, 0.426);
+    border-style: outset;
+    border-radius: 10px;
+    font-size: 17px;
+    width: 100px;
+    height: 30px;
+    border-style: inset;
+}
+
+input{
+    border-radius: 10px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#minecraft{
+    font-family: "Minecraft";
+    font-weight: 300;
+}
+
+h1,h2,h3,p{
+    font-family: "Inter",sans-serif;
+}
+
+.center{
+    text-align: center;
+}
+
+.footer1{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.div1{
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: blueviolet;
+    border-style: outset;
+    margin: auto;
+    width: 600px;
+    height: 400px;
+    background-color: white;
+}
+.div2{
+    color: white;
+    text-align: center;
+    background-color: purple;
+    width: auto;
+    height: 70px;
+}
+.div3{
+    color: black;
+    background-color: white;
+    text-align: center;
+    margin: 10px;
+    border-style: outset;
+    height: 432px;
+    width: 560px;
+}
+
+#black{
+    color: black;
+}
