@@ -1,2 +1,4 @@
-# Cracksdaora-site-Vers-o-1.0
+# Cracksdaora-site-Versão-1.0
 Site feito apenas para praticar.
+
+Use Cadastro.html primeiro
